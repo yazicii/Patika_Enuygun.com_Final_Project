@@ -7,21 +7,23 @@
   kodları karşılayabilmektedir.
 
 ---
-###Mock Service
-  ![img.png](../../../../src/test/java/img.png)
+### Mock Service
+  
+![mockList](https://user-images.githubusercontent.com/101544408/185826608-1191a00c-4bbb-4a04-98e7-4811cc425b72.png)
 
 ---
-#POSTMAN 
+# POSTMAN 
 
 ---
-* ##GET/allGrocery
-![img_1.png](../../../../src/test/java/img_1.png)![img_4.png](../../../../src/test/java/img_4.png)
-* ##GET/apple
-![img_2.png](../../../../src/test/java/img_2.png)![img_3.png](../../../../src/test/java/img_3.png)
-* ##POST/add
-![img_5.png](../../../../src/test/java/img_5.png)![img_6.png](../../../../src/test/java/img_6.png)
+* ## GET/allGrocery
+![allGrocery](https://user-images.githubusercontent.com/101544408/185826937-ad403928-ca18-482a-88a8-78905ba16797.png)
+* ## GET/apple
+![apple](https://user-images.githubusercontent.com/101544408/185827370-efe5ee8e-2321-4d9b-b7cb-ddee08244550.png)
+* ## POST/add
+![Grocerypost](https://user-images.githubusercontent.com/101544408/185827185-f66bbdf4-95eb-4e11-a916-d94969667f96.png)
 
 ##  Maven Dependency
+
 
 -------
 'Rest-Assured' should be add as a dependency on pom.xml so it will be installed automatically.
