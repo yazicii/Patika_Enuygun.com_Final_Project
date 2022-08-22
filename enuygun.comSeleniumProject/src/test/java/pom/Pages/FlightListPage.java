@@ -9,8 +9,9 @@ public class FlightListPage extends BasePage {
     private final By selectDirectFlight = By.xpath("//div[2]/div[2]/div/label[1][@class='custom-control custom-checkbox']");
     private final By onlyButton = By.xpath("//label[1]/button[text()='Sadece']");
     private final By originFlightPicker = By.xpath("//div[@data-booking-provider='" + getProvider() + "']");
-    private final By returnFlightPicker = By.cssSelector("[class='roundTrip return active'] [data-booking-provider='"+getProvider()+"']");
-    private final By chooseButton =By.cssSelector("[class='action-select-btn active btn btn-outline-success btn-sm']");
+    private final By returnFlightPicker = By.cssSelector("[class='roundTrip return active'] [data-booking-provider='" + getProvider() + "']");
+    private final By chooseButton = By.cssSelector("[class='action-select-btn active btn btn-outline-success btn-sm']");
+    private final By assertChooseButton = By.xpath("//span[text()='Bilgilerini Gir']");
 
     public FlightListPage(WebDriver driver) {
         super(driver);
@@ -34,9 +35,14 @@ public class FlightListPage extends BasePage {
         return this;
     }
 
-    public FlightListPage selectChooseButton(){
+    public FlightListPage selectChooseButton() {
         wait.until(ExpectedConditions.elementToBeClickable(chooseButton)).click();
         return this;
+    }
+
+    public boolean assertChooseButton() {
+        boolean assertChooseBtn = wait.until((ExpectedConditions.elementToBeClickable(assertChooseButton))).isDisplayed();
+        return assertChooseBtn;
     }
 
 

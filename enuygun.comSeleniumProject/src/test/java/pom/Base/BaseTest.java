@@ -19,10 +19,6 @@ public class BaseTest {
         flightListPage = new FlightListPage(driver);
     }
 
-    @BeforeMethod
-    public void initializeDriver() {
-        driver = new DriverManager().initializeDriver();
-    }
 
 //  @AfterMethod
 //  public void quitDriver() {

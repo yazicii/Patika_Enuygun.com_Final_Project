@@ -54,11 +54,6 @@ public class HomePage extends BasePage {
         return this;
     }
 
-    public void listSelect(){
-        List<WebElement> listView = driver.findElements(By.className("react-autosuggest__suggestions-list"));
-        listView.get(0).getText();
-    }
-
     public HomePage clickDestinationInput() {
         wait.until(ExpectedConditions.elementToBeClickable(destinationInput)).click();
         return this;
