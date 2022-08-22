@@ -120,6 +120,8 @@ public class Tests extends BaseTest {
     public void checkSelectChooseButton(){
         flightListPage.selectChooseButton();
         log.info("--> Choose button clicked");
+
+
     }
 
 }

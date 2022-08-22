@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ApiProjectFinal" />
         <module name="SeleniumProject" />
+        <module name="enuygun.comSeleniumProject" />
       </profile>
     </annotationProcessing>
   </component>
