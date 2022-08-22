@@ -11,3 +11,5 @@
 
 ## APPİUM
 [Appium_Project](https://github.com/yazicii/Patika_Enuygun.com_Appium_Final)
+
+[Appium_Project_Readme](https://github.com/yazicii/Patika_Enuygun.com_Appium_Final#readme)
